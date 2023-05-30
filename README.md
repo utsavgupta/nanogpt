@@ -5,10 +5,10 @@ This is based on the wonderful tutorial published by Andrej Karpathy on YouTube 
 
 ## Training Performace
 
-| Device             | Operating System | CPU                    | GPU              | RAM    | vRAM  | Time Taken      |
-|--------------------|------------------|------------------------|------------------|--------|-------|-----------------|
-| Asus Zephyrus GM501| Windows 11 Home  | Intel i7 8750H 6(12)   | Nvidia GTX 1060  | 32 GB  | 6 GB  | 1 Hr 13 Mins    |
-| P3 2x Large        | Amazon Linux 2   | Intel Xeon E5-2686 (8) | Nvidia v100      | 61 GB  | 16 GB | 17 Mins 47 Secs |
+| Device              | Operating System | CPU                         | GPU              | RAM    | vRAM  | Time Taken      |
+|---------------------|------------------|-----------------------------|------------------|--------|-------|-----------------|
+| Asus Zephyrus GM501 | Windows 11 Home  | Intel i7 8750H 6C(12T)      | Nvidia GTX 1060  | 32 GB  | 6 GB  | 1 Hr 13 Mins    |
+| AWS EC2 P3 2x Large | Amazon Linux 2   | Intel Xeon E5-2686 (8 vCPU) | Nvidia v100      | 61 GB  | 16 GB | 17 Mins 47 Secs |
 
 ## Sample Output
 
