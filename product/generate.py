@@ -6,7 +6,7 @@ model = BigramLanguageModel()
 m = model.to(device)
 
 print("Please wait while we load the model ...", end = " ")
-m.load_state_dict(torch.load('./states/zephyrus'))
+m.load_state_dict(torch.load('./states/p3'))
 print("Complete")
 print("===")
 
